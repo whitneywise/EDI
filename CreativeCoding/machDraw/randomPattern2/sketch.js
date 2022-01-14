@@ -24,7 +24,6 @@ function draw() {
   for (var x= 0; x< 600; x= x+random(50,100)){
       //ellipse(x,y,random(2,90), random(20,40);
         line (x,y, random(10,20)+x ,random(70,90)+y);
-      
   }
 }
    save("mySVG.svg"); // give file name
